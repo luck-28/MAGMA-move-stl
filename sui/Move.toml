@@ -3,7 +3,7 @@ name = "MoveSTL"
 version = "mainnet-v1.39.4"
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.39.4" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "c1f1ae650fb9f9248b39a569400b4420820868db" }
 
 [addresses]
 move_stl = "0x0"
