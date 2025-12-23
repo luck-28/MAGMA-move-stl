@@ -2,7 +2,7 @@
 name = "MoveSTL"
 version = "mainnet-v1.39.4"
 
-
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "ad937889f2f99bc666b05aaeadccb0d3d7d1f863" }
 
 [addresses]
 move_stl = "0x0"
